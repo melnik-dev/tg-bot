@@ -1,4 +1,3 @@
-    import TelegramBot from 'node-telegram-bot-api'
     import {bot} from './src/config.js'
     import {handleUser, handleUserQuery} from './src/handlers/user.js'
     import {handleAdminMessage, handleAdminQuery} from "./src/handlers/admin.js";
